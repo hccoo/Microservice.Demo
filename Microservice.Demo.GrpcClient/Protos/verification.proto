@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "Microservice.Demo.GrpcServiceHost.Protos";
+
+package verification;
+
+// The greeting service definition.
+service Verification {
+	// Sends a greeting
+	rpc SendMessage (VerificationRequest) returns (VerificationReply);
+}
+
+// The request message containing the user's name.
+message VerificationRequest {
+	string code = 1;
+	string to = 2;
+	int32 bizCode = 3;
+}
+
+// The response message containing the greetings.
+message VerificationReply {
+	bool ok = 1;
+}

@@ -1,0 +1,9 @@
+.vs
+./MicroserviceDemo.Infrastructure/bin/
+./MicroserviceDemo.Infrastructure/obj/
+./MicroserviceDemo.Service/bin/
+./MicroserviceDemo.Service/obj/
+./MicroserviceDemo.RestServiceHost/bin/
+./MicroserviceDemo.RestServiceHost/bin/
+*/obj/*
+*/bin/*
